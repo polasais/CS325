@@ -1,6 +1,10 @@
 # Name: Isac Polasak
 # OSU Email: Polasais@oregonstate.edu
 # Course: CS325
+# Description: The code implements Prim's Algorithm to find the Minimum Spanning Tree (MST) of a given graph 
+# represented as an adjacency matrix G. It starts from a chosen node (index 0), maintains a list of visited 
+# nodes and possible edges, and iteratively selects the smallest edge connecting a visited node to an unvisited node.
+
 
 def Prims(G):
     MST = []
